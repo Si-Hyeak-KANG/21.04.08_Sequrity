@@ -26,6 +26,7 @@ Proxy(대리자) 에서 선택적 필터 체인 사용
 web resource 의 경우 패텅을 따르더라도 필터를 무시(ignore)하고 통과시켜주기도 한다.
 
 시큐리티 필터들
+
 	1)HeaderWriterFilter : Http 해더를 검사.
 	2)CorsFilter : 허가된 사이트나 클라이언트 요청인가?
 	3)CsrfFilter : 내가 내보낸 리소스에서 올라온 요청인가
