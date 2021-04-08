@@ -4,7 +4,7 @@ Spring_sequrity에 대해 공부하고 인증, 권한, 로그인에 대해 공�
 
 스프링 시큐리티 구조
 
-1)서블릿 컨테이너
+1. 서블릿 컨테이너
 
 - 톰켓과 같은 웹 어플레케이션을 서블릿 컨테이너라 함.
 (이런 웹 애플리케이션(J2EE Application)은 기본적으로 필터와 서블릿으로 구성)
@@ -14,7 +14,7 @@ Spring_sequrity에 대해 공부하고 인증, 권한, 로그인에 대해 공�
 
 DispatchServlet -> url과 매칭이 되는 메소드들을 실행
 
-2) 스프링 시큐리티
+2. 스프링 시큐리티
 
 -스프링 시큐리티는 DelegatingFilterProxy라는 필터를 만들어
 메인 필터체인에 끼워넣고, 그 아래 다시 SecurityFilterChain 그룹을 등록한다.
